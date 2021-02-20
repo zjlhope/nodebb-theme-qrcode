@@ -2,6 +2,6 @@
     "id": "nodebb-theme-qrcode",
     "name": "qrcode",
     "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
-    "url": "https://github.com/zjlhope/nodebb-theme-qrcode",
+    "url": "https://github.com/psychobunny/nodebb-theme-qrcode",
     "screenshot": "screenshot.png"
 }

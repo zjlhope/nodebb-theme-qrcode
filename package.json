@@ -1,10 +1,10 @@
 {
   "name": "nodebb-theme-qrcode",
-  "version": "10.5.16",
+  "version": "10.3.19",
   "nbbpm": {
-    "compatibility": "^1.17.0"
+    "compatibility": "^1.16.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "qrcode theme for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",

@@ -22,7 +22,6 @@
 				<!-- IMPORT partials/account/category-item.tpl -->
 				{{{end}}}
 			</ul>
-			<!-- IMPORT partials/paginator.tpl -->
 		</div>
 	</div>
 </div>

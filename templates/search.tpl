@@ -16,7 +16,6 @@
 								<option value="titlesposts">[[search:titles-posts]]</option>
 								<option value="titles">[[search:titles]]</option>
 								<option value="posts">[[global:posts]]</option>
-								<option value="categories">[[global:header.categories]]</option>
 								{{{if privileges.search:users}}}
 								<option value="users">[[global:users]]</option>
 								{{{end}}}
@@ -48,9 +47,9 @@
 							<div class="row">
 								<div class="col-md-6">
 									<label>[[search:in-categories]]</label>
-									<select multiple class="form-control" id="posted-in-categories" size="{allCategoriesCount}">
-										{{{each allCategories}}}
-										<option value="{allCategories.value}">{allCategories.text}</option>
+									<select multiple class="form-control" id="posted-in-categories" size="{categoriesCount}">
+										{{{each categories}}}
+										<option value="{categories.value}">{categories.text}</option>
 										{{{end}}}
 									</select>
 									<input type="checkbox" id="search-children"> [[search:search-child-categories]]
@@ -207,14 +206,6 @@
 			<!-- IF tags.length -->
 			<!-- IMPORT partials/tags_list.tpl -->
 			<!-- ENDIF tags.length -->
-
-			{{{ if categories.length }}}
-			<ul class="categories">
-				{{{each categories}}}
-				<!-- IMPORT partials/categories/item.tpl -->
-				{{{end}}}
-			</ul>
-			{{{ end }}}
 
 			<!-- IMPORT partials/paginator.tpl -->
 		</div>

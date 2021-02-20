@@ -30,9 +30,6 @@
 						<input class="form-control" type="password" placeholder="[[register:password_placeholder]]" name="password" id="password" />
 						<span class="register-feedback" id="password-notify"></span>
 						<span class="help-block">[[register:help.minimum_password_length, {minimumPasswordLength}]]</span>
-						<p id="caps-lock-warning" class="text-danger hidden">
-							<i class="fa fa-exclamation-triangle"></i> [[login:caps-lock-enabled]]
-						</p>
 					</div>
 				</div>
 				<div class="form-group">
@@ -57,6 +54,7 @@
 						<button class="btn btn-primary btn-lg btn-block" id="register" type="submit">[[register:register_now_button]]</button>
 					</div>
 				</div>
+				<input id="referrer" type="hidden" name="referrer" value="" />
 				<input id="token" type="hidden" name="token" value="" />
 				<input id="noscript" type="hidden" name="noscript" value="true" />
 				<input type="hidden" name="_csrf" value="{config.csrf_token}" />
