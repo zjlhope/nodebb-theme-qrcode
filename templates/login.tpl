@@ -1,16 +1,16 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-<div id="bgzsQrcode"></div>
+<div id="bgzsQrcode" style="margin:0 auto;"></div>
 <script>
 bgzsQRCodeLogin.login({
 	elementId:"bgzsQrcode", 
-	redirectUri: "",
+	redirectUri: "https://bbs.ct-km.com/bgzs/callback",
 	width: '290',
 	height: '460',
 	qrcodeWidth: '200',
 	state: 'STATE',
 	clientId: '42a5097c458e498bab2da52d074ef44d',
 	busiId: '42a5097c458e498bab2da52d074ef44d',
-	api: 'https://center.bgzs.site:9076'
+	api: 'https://center.bgzs.site:9000'
 })
 </script>
 <div class="row">
