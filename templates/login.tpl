@@ -3,7 +3,7 @@
 <script>
 bgzsQRCodeLogin.login({
 	elementId:"bgzsQrcode", 
-	redirectUri: "https://bbs.ct-km.com/bgzs/callback",
+	redirectUri: "/bgzs/callback",
 	width: '290',
 	height: '460',
 	qrcodeWidth: '200',
