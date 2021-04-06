@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-qrcode",
-  "version": "10.3.19",
+  "version": "10.3.20",
   "nbbpm": {
     "compatibility": "^1.16.0"
   },
